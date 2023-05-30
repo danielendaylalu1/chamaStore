@@ -24,63 +24,74 @@ const uiSlice = createSlice({
                 id:"s1",
                 name:"Nike Men's Air Max",
                 img:img1,
-                price:150
+                price:150,
+                
             },
             {   
                 id:"s2",
                 name:"Nike Men's Air Max SC ",
                 img:img2,
-                price:165
+                price:165,
+                
             },
             {   
                 id:"s3",
                 name:"Air Max 95 ",
                 img:img3,
-                price:200
+                price:200,
+                
             },
             {   
                 id:"s4",
                 name:"Nike Air Max 90 ",
                 img:img4,
-                price:152.9
+                price:152.9,
+                
             },
             {   
                 id:"s5",
                 name:"Air Max 95 Oil Grey ",
                 img:img5,
-                price:141
+                price:141,
+                
             },
             {   
                 id:"s6",
                 name:"Nike Men's Air Max SC ",
                 img:img6,
-                price:150
+                price:150,
+                
             },
             {   
                 id:"s7",
                 name:"Nike Legend Essential 2 ",
                 img:img7,
-                price:139
+                price:139,
+                
             },
             {   
                 id:"s8",
                 name:"Nike Men's SuperRep Go",
                 img:img8,
-                price:125
+                price:125,
+                
             },
             {   
                 id:"s9",
                 name:"Jordan 12 Gym Red Tulip ",
                 img:img9,
-                price:190
+                price:190,
+                
             },
-        ]
+        ],
+        cartIsVisible:false
     },
     reducers:{
-        addToCart(state){
-            
+        toggle(state){
+            state.cartIsVisible = !state.cartIsVisible
         }
     }
 })
 
+export const uiActions = uiSlice.actions
 export default uiSlice

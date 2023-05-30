@@ -1,0 +1,15 @@
+.cartItem button{
+    margin-left: 1.5rem;
+    border: none;
+    font-size: 1.3rem;
+    color: #0B2447;
+    background-color: transparent;
+    cursor: pointer;
+}
+.cartItem img{
+    filter: drop-shadow(0 10px 8px rgba(0, 0, 0 , 0.25));
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    transition: .2s ease-in-out;
+}

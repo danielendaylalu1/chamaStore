@@ -2,14 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* flex-wrap: wrap; */
     margin-top: 10rem;
     overflow: hidden;
 }
 .mainTopImg{
     width: 50%;
     margin-left: 3rem;
-    position: relative;
 }
 .mainTopImg img{
     cursor: pointer;

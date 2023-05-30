@@ -7,6 +7,7 @@ const ProductItem = (props) => {
   const dispatch = useDispatch();
   return (
     <li className={classes.productsItem}>
+      {/* {console.log(props.item)} */}
       <img src={props.item.img} alt={props.item.name} />
       <div className={classes.productsItemDesc}>
         <div>
@@ -18,8 +19,10 @@ const ProductItem = (props) => {
             dispatch(
               cartActions.addTocart({
                 id: props.item.id,
+                img:props.item.img,
                 name: props.item.name,
                 price: props.item.price,
+                totalprice:props.item.price,
                 amount: 1,
               })
             );

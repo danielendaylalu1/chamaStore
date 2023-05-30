@@ -1,0 +1,55 @@
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+.cartItems{
+    position: fixed;
+    top: 1rem;
+    left: 0;
+    right: 0;
+    margin: 1rem auto;
+    z-index: 200;
+    overflow: scroll;
+    margin: 2rem auto;
+    margin-bottom: 2rem;
+    background-color: #ffff;
+    border-radius: 5px;
+    width: 60%;
+    max-height: 400px;
+    padding: 2rem;
+    text-align: center;
+    list-style: none;
+}
+.cartItems h3{
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #d45df8;
+}
+.cartItems h4{
+    margin-top: 1rem;
+    background-color: #ffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    padding: .5rem 0;
+}
+.cartItems h4 button{
+    cursor: pointer;
+   margin-left:  2rem;
+   border: 1px solid #0B2447;
+   padding: .5rem 1rem;
+   color: #0B2447;
+   background-color: transparent;
+
+}
