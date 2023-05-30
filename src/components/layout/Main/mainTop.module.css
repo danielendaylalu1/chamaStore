@@ -1,0 +1,25 @@
+.mainTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    margin-top: 10rem;
+    overflow: hidden;
+}
+.mainTopImg{
+    width: 50%;
+    margin-left: 3rem;
+    position: relative;
+}
+.mainTopImg img{
+    cursor: pointer;
+    filter: drop-shadow(0 20px 5px rgba(0, 0, 0, 0.25));
+    width: 100%;
+    object-fit: fill;
+    transform: rotate(-15deg);
+    margin-top: -10rem;
+    transition: .5s ease-out;
+}
+.mainTopImg img:hover{
+    transform: rotate(25deg) scale(1.2);  
+}

@@ -1,0 +1,14 @@
+.mainTopdesc{
+    width: 50%;
+    margin-right: 3rem;
+}
+.descBigText{
+    color: #0B2447;
+    font-size: 4.5rem;
+}
+.descSmallText{
+    color: #0B2447;
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 1.5rem 0;
+}

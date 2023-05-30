@@ -1,0 +1,20 @@
+.aboutItem{
+    /* display: flex; */
+    text-align: center;
+}
+.aboutItem i{
+    color: #7a1599;
+    font-size: 2.5rem;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+.aboutItemText{
+    color: #0B2447;
+}
+.aboutItemText h2{
+    margin-bottom: 0.5rem;
+}
+.aboutItemText h3{
+    font-size: 1rem;
+    font-weight: 400;
+}

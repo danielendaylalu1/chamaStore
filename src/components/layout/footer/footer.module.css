@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+.footer ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.footer ul li{
+    margin-top: 1rem;
+    color: #0B2447;
+    font-size: .8rem;
+    cursor: pointer;
+}
+.footerLogo h1{
+    color: #0B2447;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.footer h3{
+    color: #0B2447;
+}
+.footerLogo span{
+    color: #244a7e;
+    font-size: 1.9rem;
+}

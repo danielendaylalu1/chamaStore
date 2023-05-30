@@ -1,0 +1,20 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+.aboutImg{
+    width: 50%;
+    margin-right: 3rem;
+    position: relative;
+}
+.aboutImg img{
+    filter: drop-shadow(0 20px 5px rgba(0, 0, 0, 0.25));
+    width: 100%;
+    object-fit: fill;
+    transform: rotate(15deg);
+    margin-top: -10rem;
+    transition: .5s ease-out;
+}

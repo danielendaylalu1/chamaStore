@@ -1,0 +1,11 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbarItem{
+    color: #0B2447;
+    cursor: pointer;
+    list-style: none;
+    margin-left: 5rem;
+    font-size: 1rem;
+}

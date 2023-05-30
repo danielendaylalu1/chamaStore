@@ -1,0 +1,17 @@
+.cart{
+    display: flex;
+    border: 1px solid #0B2447;
+    border-radius: 15px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem 2rem;
+}
+.cart i{
+    margin-right: 1.2rem;
+    color: #0B2447;
+}
+.cart h3{
+    font-size: 1.4rem;
+    color: #d45df8;
+}

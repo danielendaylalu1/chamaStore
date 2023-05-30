@@ -1,0 +1,34 @@
+.form{
+    background-color: #d45df8;
+    text-align: center;
+    padding: 4rem 2rem 0.5rem;
+    margin-top: 5rem;
+}
+.form h1{
+    color: #ffff;
+    font-size: 3rem;
+}
+form{
+    margin-top: 2rem;
+    text-align: center;
+}
+form input{
+    padding: 1rem 2rem;
+    width: 50%;
+    font-size: 1.3rem;
+}
+form button{
+    padding: .8rem 2rem;
+    font-size: 1.3rem;
+    background-color: #d45df8;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+    color: #ffff;
+    cursor: pointer;
+    display: block;
+    margin: 1.5rem auto;
+}
+form button:hover{
+    color: #d45df8;
+    background-color: #ffff;
+}

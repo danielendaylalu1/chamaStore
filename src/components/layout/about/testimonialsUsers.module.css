@@ -1,0 +1,27 @@
+.users{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin-top: 3rem;
+}
+.user{
+    width: 200px;
+}
+.user h2{
+    margin-top: 0.3rem;
+    color: #d45df8;
+    font-size: 1.3rem;
+}
+.user p{
+    color: #0B2447;
+    margin-top: .5rem;
+    font-size: .8rem;
+}
+.user img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 100px;
+}
